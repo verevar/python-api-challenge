@@ -10,47 +10,6 @@ But, if pressed, how would you **prove** it?
 
 ![Equator](Images/equatorsign.png)
 
-### Before You Begin
-
-1. Create a new repository for this project called `python-api-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for both of the Python Challenges. Use a folder name that corresponds to the challenges, such as: **WeatherPy**.
-
-4. Inside the folder you just created, add new files called `WeatherPy.ipynb` and `VacationPy.ipynb`. These will be the main scripts to run for each analysis.
-
-5. Push the above changes to GitHub.
-
-
-### Adding A .gitignore File
-
-We don't want the `api_keys.py` file containing the API key to be exposed to the public on GitHub, as this would mean anyone could copy and use our API key, possibly causing us to incur charges.
-
-When we type `git status` in the command line, we can see all the files we have created so far that are untracked.
-
-If we only wanted to add the `WeatherPy.ipynb` file to GitHub we could type `git add WeatherPy.ipynb`. However, every time we want to add a new file or update current files to the repository, we have to add each file individually, which is time-consuming and cumbersome. Instead, we can add the files we don't want to track to the `.gitignore` file.
-
-Before we add our files to GitHub, let's add `api_keys.py` to the `.gitignore` file. Follow these steps:
-
-1. Open your `python-api-challenge` GitHub folder in VS Code.
-
-2. Open the `.gitignore` file, and on the first line type the following:
-
-```python
-# Adding config.py file.
-api_keys.py
-```
-
-3. While the `.gitignore` file is open, add the `API_practice.ipynb` and `random_numbers.ipynb` files and save the file.
-
-4. In the command line, type `git status` and press Enter. The output should say the `.gitignore` file has been modified and the `WeatherPy.ipynb` file is untracked.
-
-5. Use `git add`, `git commit`, and `git push` to commit the modifications to `.gitignore` and the `WeatherPy.ipynb` file to GitHub.
-
-On GitHub, the only new file you should see is the `WeatherPy.ipynb` file.
-
-
 ## Part I - WeatherPy
 
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
@@ -147,9 +106,6 @@ As final considerations:
 
 * Lastly, remember -- this is a challenging activity. Push yourself! If you complete this task, then you can safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. Good luck!
 
-## Rubric
-
-[Unit 6 Rubric - Python API Homework - What's the Weather Like?](https://docs.google.com/document/d/1Y17QYjs0KMeEPPGd_1BpMjnqXiTaJVeFwqea5ReMdeU/edit?usp=sharing)
 
 - - -
 
